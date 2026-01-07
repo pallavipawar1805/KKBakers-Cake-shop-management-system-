@@ -3,7 +3,6 @@ USE kkbakers; 					                 -- Used database
  
 -- creating user to connect that will have access to your database server 
 create user pallavipawar@localhost identified by "abcd";
-drop user pallavipawar@localhost;
 
 CREATE TABLE if not exists department              -- creation of the tables
 (department_id INT PRIMARY KEY,
